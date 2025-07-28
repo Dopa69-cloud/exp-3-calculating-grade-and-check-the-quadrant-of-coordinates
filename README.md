@@ -1,66 +1,69 @@
-// Online C++ compiler to run C++ program online
-#include <iostream>
-using namespace std;
+Experiment No. 3
 
-int main() {
-    int x;
-    int y;
-    cout<<"enter the value of x ";
-    cin>>x;
-    cout<<"enter the value of y ";
-    cin>>y;
-    if(x > 0)
-    {
-        if(y > 0)
-        {
-            cout<<" the point is in 1st quadrant";
-        }
-        else if (y<0)
-        {
-            cout<<" the point is in 4th quadrant";
-        }
-        else
-        {
-            cout<<" the point is in x axis ";
-        }
-    }
-    else if(x<0)
-    {
-        if(y>0)
-        {
-            cout<<"the point is in 2nd quadrant";
-        }
-        else if(y<0)
-        {
-            cout<<"the point is in 3rd quadrant";
-        }
-        else
-        {
-            cout<<"the point is in x axis";
-        }
-    }
-    else if (x=0)
-    {
-        if (y>0)
-        {
-            cout<<"the point is in y axis";
-        
-            
-        }
-        else if(y<0)
-        {
-            cout<<"the point is in y axis";
-        }
-        else
-        {
-            cout<<"the point is in origin";
-        }
-    }
-return 0;
+Aim:
 
+To study and implement different types of operators in C++.
+
+Tools Required:
+
+Visual Studio Code (VS Code)
+
+
+
+Theory:
+
+Operators are special symbols in C++ used to perform operations on variables and values. C++ provides a rich set of built-in operators categorized as:
+
+1. Arithmetic Operators : Used for mathematical operations.
+
+  Examples: +, -, *, /, %
+
+syntax:
+
+int a = 10, b = 5;
+
+int sum = a + b;
+
+
+2. Relational (Comparison) Operators : Used to compare two values.
+
+  Examples: ==, !=, <, >, <=, >=
+
+syntax:
+ 
+ if (a > b) {
+    cout << "a is greater";
+ }
+
+
+3. Logical Operators : Used to combine conditional statements.
+
+   Examples: &&, ||, !
+
+syntax:
+
+if (a > b && b > 0) {
+    // true if both conditions are true
 }
 
-OUTPUT:
-enter the value of x 5
-enter the value of y 4
-the point is in 1st quadrant
+
+4. Assignment Operators : Assign values to variables.
+
+  Examples: =, +=, -=, *=, /=
+
+5. Bitwise Operators : Used to perform operations on bits.
+
+   Examples: &, |, ^, ~, <<, >>
+
+
+
+Conclusion:
+
+
+By performing this experiment:
+
+You understood the various types of C++ operators and their uses.
+
+You implemented multiple operator categories in programs (arithmetic, relational, logical).
+
+You enhanced your problem-solving ability using expressions and conditional logic.
